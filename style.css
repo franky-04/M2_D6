@@ -1,7 +1,9 @@
 * {
   box-sizing: border-box;
-  font-family: monospace;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   margin: 0;
+  padding: 0;
 }
 
 .navbar {
@@ -13,14 +15,60 @@
 }
 
 .table-section {
+  margin-top: 3rem;
+}
+
+.prodotto {
   display: flex;
   justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.sezione-descr {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 300px;
+}
+
+.mr-16 {
+  margin-right: 16px;
+}
+
+table {
+  margin-top: 1rem;
+}
+
+b {
+  font-size: 20px;
+}
+
+textarea {
+  resize: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
 .footer {
   display: flex;
   justify-content: space-around;
   position: relative;
-  top: 50px;
+  bottom: 0px;
   background-color: aquamarine;
+  width: 100%;
+}
+
+.footer > div {
+  margin: 1rem;
+}
+
+.classToAdd {
+  color: green;
+}
+
+.classForImages {
+  visibility: hidden;
 }
